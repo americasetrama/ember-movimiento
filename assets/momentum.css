@@ -1,0 +1,22 @@
+body {
+	background: #333;
+	
+}
+
+h1	{
+		color: #fff;
+	}
+	.title-stroke svg {
+		
+		width: 50px !important;
+		cursor: pointer;
+	}	
+	.kine svg {
+		
+		width: 550px !important;
+		cursor: pointer;
+	}	
+
+.back-animation svg {
+	
+}
