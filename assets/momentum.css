@@ -20,3 +20,13 @@ h1	{
 .back-animation svg {
 	
 }
+
+.pop-notification {
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.pop-notification svg {
+	width: 450px;
+}
