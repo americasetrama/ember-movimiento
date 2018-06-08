@@ -1,6 +1,6 @@
 'use strict';
 
-define('momentum/tests/app.lint-test', [], function () {
+define('bodmov-stn/tests/app.lint-test', [], function () {
   'use strict';
 
   QUnit.module('ESLint | app');
@@ -19,20 +19,15 @@ define('momentum/tests/app.lint-test', [], function () {
     assert.expect(1);
     assert.ok(true, 'router.js should pass ESLint\n\n');
   });
-
-  QUnit.test('transitions.js', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'transitions.js should pass ESLint\n\n');
-  });
 });
-define('momentum/tests/test-helper', ['momentum/app', 'momentum/config/environment', '@ember/test-helpers', 'ember-qunit'], function (_app, _environment, _testHelpers, _emberQunit) {
+define('bodmov-stn/tests/test-helper', ['bodmov-stn/app', 'bodmov-stn/config/environment', '@ember/test-helpers', 'ember-qunit'], function (_app, _environment, _testHelpers, _emberQunit) {
   'use strict';
 
   (0, _testHelpers.setApplication)(_app.default.create(_environment.default.APP));
 
   (0, _emberQunit.start)();
 });
-define('momentum/tests/tests.lint-test', [], function () {
+define('bodmov-stn/tests/tests.lint-test', [], function () {
   'use strict';
 
   QUnit.module('ESLint | tests');
@@ -42,8 +37,8 @@ define('momentum/tests/tests.lint-test', [], function () {
     assert.ok(true, 'test-helper.js should pass ESLint\n\n');
   });
 });
-define('momentum/config/environment', [], function() {
-  var prefix = 'momentum';
+define('bodmov-stn/config/environment', [], function() {
+  var prefix = 'bodmov-stn';
 try {
   var metaName = prefix + '/config/environment';
   var rawConfig = document.querySelector('meta[name="' + metaName + '"]').getAttribute('content');
@@ -61,6 +56,6 @@ catch(err) {
 
 });
 
-require('momentum/tests/test-helper');
+require('bodmov-stn/tests/test-helper');
 EmberENV.TESTS_FILE_LOADED = true;
 //# sourceMappingURL=tests.map

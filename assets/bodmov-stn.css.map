@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "bodmov-stn.css",
+	"sourceRoot": "/projects/bodmov-stn/app/styles",
+	"sources": [
+		"../../sass_compiler-input_base_path-hsz5XXFz.tmp/app/styles/app.scss"
+	],
+	"sourcesContent": [
+		"@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');\r\n\r\nbody {\r\n    background: #393e46;\r\n    font-family: 'Amatic SC', cursive;\r\n    color: #fff;\r\n    font-weight: 300;\r\n    \r\n    .welcome-screen {\r\n        position: fixed;\r\n        top: -50vh;\r\n    }\r\n    \r\n    h1 {\r\n        text-align: center;\r\n        padding-top: 50px;\r\n    }\r\n}\r\n\r\n.logo-intro {\r\n    position: fixed;\r\n    top: 30vh;\r\n    left: calc(50vw - 250px);\r\n    cursor: pointer;\r\n    width: 500px;\r\n    text-align: center;\r\n    \r\n    h2 {\r\n        font-size: 35px;\r\n    }\r\n}\r\n\r\n.santuan-logo-movin {\r\n    cursor: pointer;\r\n    width: 500px;\r\n}\r\n\r\n.pop-notification {\r\n    position:fixed;\r\n    top:0;\r\n    left: 0;\r\n    width: 280px;\r\n    z-index: 2;\r\n   \r\n}\r\n\r\n.shape-dance {\r\n    opacity: .1;\r\n    z-index: 1;\r\n    position: relative;\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,4DAAI;AAEZ,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,OAAO;EACnB,WAAW,EAAE,oBAAoB;EACjC,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,GAAG,GAWnB;EAfD,AAMI,IANA,CAMA,eAAe,CAAC;IACZ,QAAQ,EAAE,KAAK;IACf,GAAG,EAAE,KAAK,GACb;EATL,AAWI,IAXA,CAWA,EAAE,CAAC;IACC,UAAU,EAAE,MAAM;IAClB,WAAW,EAAE,IAAI,GACpB;;AAGL,AAAA,WAAW,CAAC;EACR,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,IAAI;EACT,IAAI,EAAE,kBAAkB;EACxB,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM,GAKrB;EAXD,AAQI,WARO,CAQP,EAAE,CAAC;IACC,SAAS,EAAE,IAAI,GAClB;;AAGL,AAAA,mBAAmB,CAAC;EAChB,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,iBAAiB,CAAC;EACd,QAAQ,EAAC,KAAK;EACd,GAAG,EAAC,CAAC;EACL,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,CAAC,GAEb;;AAED,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,QAAQ,GACrB"
+}

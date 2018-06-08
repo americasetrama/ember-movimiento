@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:700");
+body {
+  background: #393e46;
+  font-family: 'Amatic SC', cursive;
+  color: #fff;
+  font-weight: 300; }
+  body .welcome-screen {
+    position: fixed;
+    top: -50vh; }
+  body h1 {
+    text-align: center;
+    padding-top: 50px; }
+
+.logo-intro {
+  position: fixed;
+  top: 30vh;
+  left: calc(50vw - 250px);
+  cursor: pointer;
+  width: 500px;
+  text-align: center; }
+  .logo-intro h2 {
+    font-size: 35px; }
+
+.santuan-logo-movin {
+  cursor: pointer;
+  width: 500px; }
+
+.pop-notification {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  z-index: 2; }
+
+.shape-dance {
+  opacity: .1;
+  z-index: 1;
+  position: relative; }
+
+/*# sourceMappingURL=bodmov-stn.css.map */
